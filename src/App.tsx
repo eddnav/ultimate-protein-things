@@ -11,12 +11,16 @@ function App() {
 
   const helper = createColumnHelper<Review>()
   const columns = [
+    helper.accessor('product.imageUrl', {
+      header: () => <span></span>,
+      cell: info => info.getValue()
+    }),
         helper.accessor('product.brand', {
-          header: () => <span>Product</span>,
+          header: () => <span>Brand</span>,
           cell: info => info.getValue()
         }),
         helper.accessor('product.name', {
-          header: () => <span>Brand</span>,
+          header: () => <span>Product</span>,
           cell: info => info.getValue()
         }),
         helper.accessor('product.type', {
@@ -46,8 +50,14 @@ function App() {
 
   return (
     <section className="section">
+      <div className='container mb-5'>
+      <div className='content is-medium'>
+      <h1>Protein Things, Reviewed</h1>
+      <p>Judgement passed upon unsuspecting protein products by a <a href='https://github.com/eddnav'>developer</a> with a bit too much time on his hands.</p>
+      </div>
+      </div>
       <div className='container'>
-      <table className="table is-fullwidth is-bordered is-hoverable is-striped">
+      <table className="table is-fullwidth is-hoverable is-striped">
         <thead>
           {table.getHeaderGroups().map(headerGroup => (
             <tr key={headerGroup.id}>
