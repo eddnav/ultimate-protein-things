@@ -1,6 +1,6 @@
 [  
     {
-        "slug": "grenade-chocolate-chip-salted-caramel",
+        "slug": "grenade-salted-caramel",
         "pros": [
             "Very fudgey",
             "Lots of sweet and salty contrast",
@@ -13,8 +13,8 @@
         ],
         "comparison": "N/A",
         "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
+            "imageUrl": "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/assets/img/grenade-salted-caramel.avif",
+            "name": "Grenade Salted Caramel",
             "brand": "Grenade",
             "type": "ProteinBar",
             "weightInGrams": 60,
@@ -26,445 +26,57 @@
         "reviewYear": 2023
     },
     {
-        "slug": "grenade-chocolate-chip-salted-caramel",
+        "slug": "grenade-oreo",
         "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
+            "Tastes very much like Oreo",
+            "Very candy-like",
+            "Nicely sweet"
         ],
         "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
+           "High calorie (worth it though)"
         ],
-        "comparison": "N/A",
+        "comparison": "Chewy Oreo bar",
         "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
+            "imageUrl": "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/assets/img/grenade-oreo.avif",
+            "name": "Grenade Oreo",
             "brand": "Grenade",
             "type": "ProteinBar",
             "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
+            "caloriesInKcal":  233.4,
+            "proteinInGrams": 21,
+            "sugarInGrams": 1.02
         },
-        "tier": "A",
+        "tier": "S",
         "reviewYear": 2023
     },
     {
-        "slug": "grenade-chocolate-chip-salted-caramel",
+        "slug": "jimmy-joy-plenny-bar-v3-almond-and-fig",
         "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
+            "Hefty",
+            "Very nutricious"
         ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
+        "cons":[
+            "Actually not a candy bar, it's a \"meal\" bar",
+            "Dry",
+            "Hard as fuck",
+            "Chemical-y tasting",
+            "Chewy",
+            "High in calories",
+            "Low protein to calorie percentage",
+            "Actually dogshit, in its own tier"
         ],
-        "comparison": "N/A",
+        "comparison": "Inedible pie crust mixed with fig flavoured sawdust",
         "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
+            "imageUrl": "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/assets/img/jimmy-joy-plenny-bar-v3-almond-and-fig.avif",
+            "name": "Jimmy Joy Plenny Bar V3 Almond & Fig",
+            "brand": "Jimmy Joy",
             "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
+            "weightInGrams": 100,
+            "caloriesInKcal":  400,
+            "proteinInGrams": 20,
+            "sugarInGrams": 8.4
         },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
-        "reviewYear": 2023
-    },
-    {
-        "slug": "grenade-chocolate-chip-salted-caramel",
-        "pros": [
-            "Very fudgey",
-            "Lots of sweet and salty contrast",
-            "Chocolate chip toppings for texture",
-            "Very low sugar"
-        ],
-        "cons": [
-           "Tiny bit chewy",
-           "Bit high calorie"
-        ],
-        "comparison": "N/A",
-        "product": {
-            "imageUrl": "https://bulma.io/assets/images/placeholders/128x128.png",
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
-            "brand": "Grenade",
-            "type": "ProteinBar",
-            "weightInGrams": 60,
-            "caloriesInKcal":  225.6,
-            "proteinInGrams": 18.15,
-            "sugarInGrams": 1.5
-        },
-        "tier": "A",
+        "tier": "Dogshit",
         "reviewYear": 2023
     }
 ]

@@ -4,6 +4,7 @@ import { Review } from './models/Review';
 import { createColumnHelper, flexRender, getCoreRowModel, useReactTable } from '@tanstack/react-table';
 import { ProductType } from './models/ProductType';
 import 'bulma/css/bulma.min.css';
+import { Tier } from './models/Tier';
 
 function App() {
   
@@ -13,7 +14,9 @@ function App() {
   const columns = [
     helper.accessor('product.imageUrl', {
       header: () => <span></span>,
-      cell: info => info.getValue()
+      cell: ({row}) => <figure className="image is-96x96">
+      <img src={row.original.product.imageUrl} />
+    </figure>
     }),
         helper.accessor('product.brand', {
           header: () => <span>Brand</span>,
@@ -29,7 +32,7 @@ function App() {
         }),
         helper.accessor('tier', {
           header: () => <span>Tier</span>,
-          cell: info => info.getValue()
+          cell: ({row}) => <span className={`tag is-large ${Tier.getTagClassName(row.original.tier)}`}>{row.original.tier}</span>
         })
     ]
 
@@ -50,7 +53,7 @@ function App() {
 
   return (
     <section className="section">
-      <div className='container mb-5'>
+      <div className='container mb-6'>
       <div className='content is-medium'>
       <h1>Protein Things, Reviewed</h1>
       <p>Judgement passed upon unsuspecting protein products by a <a href='https://github.com/eddnav'>developer</a> with a bit too much time on his hands.</p>
