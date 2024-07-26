@@ -1,31 +1,39 @@
 .tag.tier-dogshit {
+  color: white;
   background-color: rgba(102, 32, 32, 0.842);
 }
 
 .tag.tier-f{
+  color: white;
   background-color: rgb(158, 158, 158);
 }
 
 .tag.tier-e {
+  color: white;
   background-color: rgb(143, 209, 68);
 }
 
 .tag.tier-d {
+  color: white;
   background-color: rgb(23, 203, 216);
 }
 
 .tag.tier-c {
+  color: white;
   background-color: rgb(26, 17, 155);
 }
 
 .tag.tier-b {
+  color: white;
   background-color: rgb(122, 9, 104);
 }
 
 .tag.tier-a {
+  color: white;
   background-color: rgb(224, 98, 25);
 }
 
 .tag.tier-s {
+  color: white;
   background-color: rgb(247, 29, 0);
 }

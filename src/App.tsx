@@ -32,7 +32,7 @@ function App() {
         }),
         helper.accessor('tier', {
           header: () => <span>Tier</span>,
-          cell: ({row}) => <span className={`tag is-large ${Tier.getTagClassName(row.original.tier)}`}>{row.original.tier}</span>
+          cell: ({row}) => <span className={`tag is-large is-rounded glowing-circle ${Tier.getTagClassName(row.original.tier)}`}>{row.original.tier}</span>
         })
     ]
 
@@ -46,7 +46,7 @@ function App() {
       const fetchData = async () => {
           const response = await fetch('https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/data.json');
           const result: [Review] = await response.json();
-          setData([...result, ...result, ...result, ...result, ...result]);
+          setData(result);
       };
       fetchData();
   }, []);

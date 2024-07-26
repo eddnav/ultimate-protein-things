@@ -26,7 +26,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "avify": "yarn dlx avif --overwrite --input=\"assets/img\" --output=\"assets/img\""
+    "avify": "yarn dlx avif --overwrite --input=\"assets/img\" --output=\"assets/img\"",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -49,7 +50,7 @@
   "devDependencies": {
     "avif": "^0.5.2",
     "dlx": "^0.2.1",
-    "eslint": "^9.7.0",
+    "eslint": "^8.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "gh-pages": "^6.1.1",
