@@ -1,4 +1,3 @@
-import { StringLiteral } from "typescript";
 import { ProductType } from "./ProductType";
 
 export interface Product {
