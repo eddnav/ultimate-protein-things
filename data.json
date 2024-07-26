@@ -13,7 +13,432 @@
         ],
         "comparison": "N/A",
         "product": {
-            "name": "Chocolate Chip Salted Caramel Protein Bar",
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
+            "brand": "Grenade",
+            "type": "ProteinBar",
+            "weightInGrams": 60,
+            "caloriesInKcal":  225.6,
+            "proteinInGrams": 18.15,
+            "sugarInGrams": 1.5
+        },
+        "tier": "A",
+        "reviewYear": 2023
+    },
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "product": {
+            "name": "Chocolate Chip Salted Caramel",
             "brand": "Grenade",
             "type": "ProteinBar",
             "weightInGrams": 60,
