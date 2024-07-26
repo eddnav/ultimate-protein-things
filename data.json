@@ -1,0 +1,24 @@
+[  
+    {
+        "slug": "grenade-chocolate-chip-salted-caramel",
+        "brand": "Grenade",
+        "type": "protein-bar",
+        "name": "Chocolate Chip Salted Caramel Protein Bar",
+        "pros": [
+            "Very fudgey",
+            "Lots of sweet and salty contrast",
+            "Chocolate chip toppings for texture",
+            "Very low sugar"
+        ],
+        "cons": [
+           "Tiny bit chewy",
+           "Bit high calorie"
+        ],
+        "comparison": "N/A",
+        "caloriesInKcal":  225.6,
+        "proteinInGrams": 18.15,
+        "sugarInGrams": 1.5,
+        "tier": "A",
+        "reviewYear": 2023
+    }
+]
