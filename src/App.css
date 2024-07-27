@@ -34,12 +34,13 @@
 }
 
 .tag.tier-s {
-  color: white;
+  color: rgba(255, 255, 255, 0.1);
   background-color: transparent;
   background: linear-gradient(-45deg, #d8920f 40%, #e4c895 50%, #d8920f 60%);
   background-size: 400%;
   background-position-x: 100%;
-  animation: shimmer 3s 2s infinite ease-out;
+  animation: shimmer 1.5s 3s infinite ease-out;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7), 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 @keyframes shimmer {
   to {
