@@ -30,10 +30,19 @@
 
 .tag.tier-a {
   color: white;
-  background-color: rgb(224, 98, 25);
+  background-color: rgb(255, 8, 0);
 }
 
 .tag.tier-s {
   color: white;
-  background-color: rgb(247, 29, 0);
+  background-color: transparent;
+  background: linear-gradient(-45deg, #d8920f 40%, #e4c895 50%, #d8920f 60%);
+  background-size: 400%;
+  background-position-x: 100%;
+  animation: shimmer 3s 2s infinite ease-out;
+}
+@keyframes shimmer {
+  to {
+     background-position-x: 0%
+  }
 }
