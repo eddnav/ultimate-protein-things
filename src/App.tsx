@@ -237,7 +237,7 @@ function App() {
           <div className='grid'>
             {table.getRowModel().rows.map(row => (
               <div className='cell' key={row.id}>
-                <div className="card" onClick={() => row.toggleExpanded()}>
+                <div className="card clickable" onClick={() => row.toggleExpanded()}>
                   <div className="card-content">
                     <div className="media">
                       <div className="media-left">
