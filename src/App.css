@@ -1,39 +1,39 @@
-.tag.tier-dogshit {
+.tag.tier.tier-dogshit {
   color: white;
   background-color: rgba(102, 32, 32, 0.842);
 }
 
-.tag.tier-f{
+.tag.tier.tier-f{
   color: white;
   background-color: rgb(158, 158, 158);
 }
 
-.tag.tier-e {
+.tag.tier.tier-e {
   color: white;
   background-color: rgb(143, 209, 68);
 }
 
-.tag.tier-d {
+.tag.tier.tier-d {
   color: white;
   background-color: rgb(23, 203, 216);
 }
 
-.tag.tier-c {
+.tag.tier.tier-c {
   color: white;
   background-color: rgb(26, 17, 155);
 }
 
-.tag.tier-b {
+.tag.tier.tier-b {
   color: white;
   background-color: rgb(122, 9, 104);
 }
 
-.tag.tier-a {
+.tag.tier.tier-a {
   color: white;
   background-color: rgb(255, 8, 0);
 }
 
-.tag.tier-s {
+.tag.tier.tier-s {
   color: rgba(255, 255, 255, 0.1);
   background-color: transparent;
   background: linear-gradient(-45deg, #d8920f 40%, #e4c895 50%, #d8920f 60%);
@@ -48,26 +48,8 @@
   }
 }
 
-.no-border {
-  border: none !important;
-}
-
-.no-border td,
-.no-border th {
-    border: none !important;
-}
-
-.no-hover:hover {
-  background-color: transparent !important;
-}
-
-.large-padding td,
-.large-padding th {
-    padding: 1em 0.75em !important;
-}
-
-.text-ellipsis {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.tag.tier {
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
