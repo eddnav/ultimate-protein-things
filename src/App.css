@@ -47,3 +47,27 @@
      background-position-x: 0%
   }
 }
+
+.no-border {
+  border: none !important;
+}
+
+.no-border td,
+.no-border th {
+    border: none !important;
+}
+
+.no-hover:hover {
+  background-color: transparent !important;
+}
+
+.large-padding td,
+.large-padding th {
+    padding: 1em 0.75em !important;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

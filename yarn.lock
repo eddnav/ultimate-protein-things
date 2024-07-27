@@ -1975,6 +1975,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/fontawesome-free@npm:^6.6.0":
+  version: 6.6.0
+  resolution: "@fortawesome/fontawesome-free@npm:6.6.0"
+  checksum: 10c0/35c55bfecac9eb4943cf94f4380093dbe286fa29ce593488252644322b83e28eecbac757cef3eabdff7b3df67fc531c4f6dce6a3b00236f5de0174e186a9b5bb
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.14":
   version: 0.11.14
   resolution: "@humanwhocodes/config-array@npm:0.11.14"
@@ -13461,6 +13468,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ultimate-protein-things@workspace:."
   dependencies:
+    "@fortawesome/fontawesome-free": "npm:^6.6.0"
     "@tanstack/react-table": "npm:^8.19.3"
     "@testing-library/jest-dom": "npm:^5.14.1"
     "@testing-library/react": "npm:^13.0.0"

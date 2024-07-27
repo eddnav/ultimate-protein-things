@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Review } from './models/Review';
-import { Column, ColumnFiltersState, createColumnHelper, flexRender, getCoreRowModel, getFacetedMinMaxValues, getFacetedRowModel, getFacetedUniqueValues, getFilteredRowModel, RowData, useReactTable } from '@tanstack/react-table';
+import { Column, ColumnFiltersState, createColumnHelper, ExpandedState, flexRender, getCoreRowModel, getExpandedRowModel, getFacetedMinMaxValues, getFacetedRowModel, getFacetedUniqueValues, getFilteredRowModel, RowData, useReactTable } from '@tanstack/react-table';
 import { ProductType } from './models/ProductType';
 import 'bulma/css/bulma.min.css';
+import "@fortawesome/fontawesome-free/css/all.css";
 import { Tier } from './models/Tier';
 
 // TODO: Add expanding to show pros, cons extra info
@@ -131,6 +132,7 @@ function App() {
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>(
     []
   )
+  const [expanded, setExpanded] = useState<ExpandedState>({})
 
   const helper = createColumnHelper<Review>()
   const columns = [
@@ -142,21 +144,21 @@ function App() {
     enableColumnFilter: false
         }),
         helper.accessor('product.brand', {
-          header: () => <span>Brand</span>,
+          header: () => <span className='text-ellipsis'>Brand</span>,
           cell: info => info.getValue(),
           meta: {
             filterVariant: 'select',
           }
         }),
         helper.accessor('product.name', {
-          header: () => <span>Product</span>,
+          header: () => <span className='text-ellipsis'>Product</span>,
           cell: info => info.getValue(),
           meta: {
             filterVariant: 'text',
           }
         }),
         helper.accessor('product.type', {
-          header: () => <span>Type</span>,
+          header: () => <span className='text-ellipsis'>Type</span>,
           cell: ({row}) => <span>{ProductType.toString(row.original.product.type)}</span>,
           filterFn: 'equalsString',
           meta: {
@@ -164,21 +166,21 @@ function App() {
           }
         }),
         helper.accessor('product.caloriesInKcal', {
-          header: () => <span>Calories (kcal)</span>,  
+          header: () => <span className='text-ellipsis'>Calories (kcal)</span>,  
           cell: ({row}) => <span>{`${row.original.product.caloriesInKcal} kcal`}</span>,
           meta: {
             filterVariant: 'range',
           }
         }),
         helper.accessor('product.proteinInGrams', {
-          header: () => <span>Protein (g)</span>,  
+          header: () => <span className='text-ellipsis'>Protein (g)</span>,  
           cell: ({row}) => <span>{`${row.original.product.proteinInGrams} g`}</span>,
           meta: {
             filterVariant: 'range',
           }
         }),
         helper.accessor('tier', {
-          header: () => <span>Tier</span>,
+          header: () => <span className='text-ellipsis'>Tier</span>,
           cell: ({row}) => <span className={`tag is-large ${Tier.getTagClassName(row.original.tier)}`}>{row.original.tier}</span>,
           filterFn: 'equalsString',
           meta: {
@@ -191,14 +193,17 @@ function App() {
     data,
     columns,
     state: {
+      expanded,
       columnFilters,
     },
     onColumnFiltersChange: setColumnFilters,
+    onExpandedChange: setExpanded,
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getFacetedRowModel: getFacetedRowModel(),
     getFacetedUniqueValues: getFacetedUniqueValues(),
     getFacetedMinMaxValues: getFacetedMinMaxValues(),
+    getExpandedRowModel: getExpandedRowModel(),
     debugTable: true,
     debugHeaders: true,
     debugColumns: false
@@ -218,11 +223,11 @@ function App() {
       <div className='container mb-6'>
       <div className='content is-medium'>
       <h1>Protein Things, Reviewed</h1>
-      <p>Judgement passed upon unsuspecting protein products by a <a href='https://github.com/eddnav'>developer</a> with a bit too much time on his hands.</p>
+      <p>Judgement passed upon unsuspecting protein products by <a href='https://github.com/eddnav'>this guy</a>.</p>
       </div>
       </div>
       <div className='container'>
-      <table className="table is-fullwidth is-hoverable is-striped">
+      <table className="table is-fullwidth is-hoverable large-padding">
         <thead>
           {table.getHeaderGroups().map(headerGroup => (
             <tr key={headerGroup.id}>
@@ -248,13 +253,60 @@ function App() {
         </thead>
         <tbody>
           {table.getRowModel().rows.map(row => (
-            <tr key={row.id}>
+            <>
+            <tr key={row.id} onClick={ () => row.toggleExpanded()} className={row.getIsExpanded() ? 'no-border' : ''}>
               {row.getVisibleCells().map(cell => (
                 <td key={cell.id}>
-                  {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  { flexRender(cell.column.columnDef.cell, cell.getContext()) }
                 </td>
               ))}
             </tr>
+            {row.getIsExpanded() ?
+            <tr className='no-hover no-top-padding'>
+              <td colSpan={columns.length}>
+              <div className="columns mb-1">
+            <div className="column">
+            <h4 className='title is-4'>Good</h4>
+            {row.original.pros.map(data => 
+              <div className="icon-text">
+              <span className="icon has-text-success">
+                <i className="fa-solid fa-plus"></i>
+              </span>
+              <span>{data}</span>
+            </div>
+            )}
+            </div>
+            <div className="column">
+              <h4 className='title is-4'>Bad</h4>
+              {row.original.cons.map(data => 
+              <div className="icon-text">
+              <span className="icon has-text-danger">
+                <i className="fa-solid fa-minus"></i>
+              </span>
+              <span>{data}</span>
+            </div>
+            )}
+            </div>
+            <div className="column">
+              <h4 className='title is-4'>Misc</h4>
+              <div className="icon-text">
+              <span className="icon has-text-info">
+                <i className="fa-solid fa-comment-dots"></i>
+              </span>
+              <span>{row.original.comparison}</span>
+            </div>
+            <div className="icon-text">
+              <span className="icon has-text-info">
+                <i className="fa-solid fa-calendar"></i>
+              </span>
+              <span>Reviewed in {row.original.reviewYear}</span>
+            </div>
+            </div>
+          </div>
+              </td>
+            </tr>
+             : null}
+            </>
           ))}
         </tbody>
       </table>
