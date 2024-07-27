@@ -7,7 +7,6 @@ import 'bulma/css/bulma.min.css';
 import "@fortawesome/fontawesome-free/css/all.css";
 import { Tier } from './models/Tier';
 
-// TODO: Add expanding to show pros, cons extra info
 // TODO: Fix formatting eslint + prettier
 // TODO: Fix favico and logos
 // TODO: Fix this code, split it
