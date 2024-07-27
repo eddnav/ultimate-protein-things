@@ -245,7 +245,7 @@ function App() {
                           <img src={row.original.product.imageUrl} />
                         </figure>
                       </div>
-                      <div className="media-content">
+                      <div className="media-content no-scrolling">
                         <p className="subtitle is-6 text-ellipsis">{row.original.product.brand}</p>
                         <p className="title is-4 ">{row.original.product.name}</p>
                       </div>

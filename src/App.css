@@ -57,3 +57,7 @@
 .clickable {
   cursor: pointer;
 }
+
+.media-content.no-scrolling {
+  overflow-x: none !important;
+}
