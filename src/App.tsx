@@ -237,9 +237,9 @@ function App() {
           <div className='grid'>
             {table.getRowModel().rows.map(row => (
               <div className='cell' key={row.id}>
-                <div className="card clickable" onClick={() => row.toggleExpanded()}>
+                <div className='card'>
                   <div className="card-content">
-                    <div className="media">
+                    <div className="media clickable" onClick={() => row.toggleExpanded()}>
                       <div className="media-left">
                         <figure className="image is-64x64">
                           <img src={row.original.product.imageUrl} />
