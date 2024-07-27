@@ -216,7 +216,7 @@ function App() {
           {table.getHeaderGroups().map(headerGroup => (
             headerGroup.headers.map(header => (
               header.column.getCanFilter() ? (
-                <div className='column' key={header.id}>
+                <div className='column is-desktop' key={header.id}>
                   <div className='mb-2'>
                     <div className='mb-1'>
                       {flexRender(
@@ -294,13 +294,19 @@ function App() {
                             <span className="icon has-text-info">
                               <i className="fa-solid fa-fire"></i>
                             </span>
-                            <span>{`${row.original.product.caloriesInKcal} kcal`}</span>
+                            <span>{`${row.original.product.caloriesInKcal}kcal per portion`}</span>
+                          </div>
+                          <div className="icon-text">
+                            <span className="icon has-text-info">
+                              <i className="fa-solid fa-dumbbell"></i>
+                            </span>
+                            <span>{`${row.original.product.proteinInGrams}g of protein per portion`}</span>
                           </div>
                           <div className="icon-text">
                             <span className="icon has-text-info">
                               <i className="fa-solid fa-weight-hanging"></i>
                             </span>
-                            <span>{`${row.original.product.proteinInGrams} g`}</span>
+                            <span>{`${row.original.product.weightInGrams}g per portion`}</span>
                           </div>
                           <div className="icon-text">
                             <span className="icon has-text-info">
