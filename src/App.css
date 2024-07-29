@@ -1,63 +1,90 @@
-.tag.tier.tier-dogshit {
+:root {
+  --bulma-shadow: 0 0.125em 0.65em -0.125em hsla(var(--bulma-shadow-h),
+      var(--bulma-shadow-s),
+      var(--bulma-shadow-l), 0.1),
+      0 0px 0 1px hsla(var(--bulma-shadow-h),
+      var(--bulma-shadow-s), var(--bulma-shadow-l), 0.02) !important;
+}
+
+.tag.tier-dogshit {
   color: white;
   background-color: rgba(102, 32, 32, 0.842);
 }
 
-.tag.tier.tier-f{
+.tag.tier-f {
   color: white;
   background-color: rgb(158, 158, 158);
 }
 
-.tag.tier.tier-e {
+.tag.tier-e {
   color: white;
   background-color: rgb(143, 209, 68);
 }
 
-.tag.tier.tier-d {
+.tag.tier-d {
   color: white;
   background-color: rgb(23, 203, 216);
 }
 
-.tag.tier.tier-c {
+.tag.tier-c {
   color: white;
   background-color: rgb(26, 17, 155);
 }
 
-.tag.tier.tier-b {
+.tag.tier-b {
   color: white;
   background-color: rgb(122, 9, 104);
 }
 
-.tag.tier.tier-a {
+.tag.tier-a {
   color: white;
   background-color: rgb(255, 8, 0);
 }
 
-.tag.tier.tier-s {
+.tag.tier-s {
   color: rgba(255, 255, 255, 0.1);
   background-color: transparent;
   background: linear-gradient(-45deg, #d8920f 40%, #e4c895 50%, #d8920f 60%);
   background-size: 400%;
   background-position-x: 100%;
   animation: shimmer 1.5s 3s infinite ease-out;
-	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7), 1px 1px 1px rgba(0, 0, 0, 0.7);
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7), 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
+
 @keyframes shimmer {
   to {
-     background-position-x: 0%
+    background-position-x: 0%
   }
-}
-
-.tag.tier {
-  position: absolute;
-  top: -5px;
-  right: -10px;
-}
-
-.clickable {
-  cursor: pointer;
 }
 
 .media-content.no-scrolling {
   overflow-x: unset;
+}
+
+.masonry-columns {
+  column-count: 1;
+  column-gap: 16px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+@media (max-width: 1408px) {
+  .container.is-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .masonry-columns {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1408px) {
+  .masonry-columns {
+    column-count: 3;
+  } 
 }

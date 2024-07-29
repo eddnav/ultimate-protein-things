@@ -190,7 +190,6 @@ function App() {
     getFacetedRowModel: getFacetedRowModel(),
     getFacetedUniqueValues: getFacetedUniqueValues(),
     getFacetedMinMaxValues: getFacetedMinMaxValues(),
-    getExpandedRowModel: getExpandedRowModel(),
     debugTable: true,
     debugHeaders: true,
     debugColumns: false
@@ -232,14 +231,13 @@ function App() {
             ))))}
         </div>
       </div>
-      <div className='container'>
-        <div className='fixed-grid has-1-cols-mobile has-2-cols-tablet has-2-cols-desktop'>
-          <div className='grid'>
+      <div className='container is-fluid'>
+          <div className='masonry-columns'>
             {table.getRowModel().rows.map(row => (
-              <div className='cell' key={row.id}>
+              <div className='masonry-item' key={row.id}>
                 <div className='card'>
                   <div className="card-content">
-                    <div className="media clickable" onClick={() => row.toggleExpanded()}>
+                    <div className="media">
                       <div className="media-left">
                         <figure className="image is-64x64">
                           <img src={row.original.product.imageUrl} />
@@ -249,8 +247,10 @@ function App() {
                         <p className="subtitle is-6 text-ellipsis">{row.original.product.brand}</p>
                         <p className="title is-4 ">{row.original.product.name}</p>
                       </div>
+                      <div className='media-right'>
+                        <span className={`tag is-large ${Tier.getTagClassName(row.original.tier)}`}>{row.original.tier}</span>
+                      </div>
                     </div>
-                    {row.getIsExpanded() ?
                       <div>
                         <div className="columns">
                           <div className="column">
@@ -315,16 +315,13 @@ function App() {
                             <span>Reviewed in {row.original.reviewYear}</span>
                           </div>
                         </div>
-                      </div> : null
-                    }
+                      </div>
                   </div>
-                  <span className={`tag tier is-large ${Tier.getTagClassName(row.original.tier)}`}>{row.original.tier}</span>
                 </div>
               </div>
             ))}
           </div>
         </div>
-      </div>
     </section>
   );
 }
