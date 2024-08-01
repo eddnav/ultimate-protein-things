@@ -1,9 +1,12 @@
 :root {
-  --bulma-shadow: 0 0.125em 0.65em -0.125em hsla(var(--bulma-shadow-h),
-      var(--bulma-shadow-s),
-      var(--bulma-shadow-l), 0.1),
-    0 0px 0 1px hsla(var(--bulma-shadow-h),
-      var(--bulma-shadow-s), var(--bulma-shadow-l), 0.02) !important;
+  --bulma-shadow: 0 0.125em 0.65em -0.125em hsla(var(--bulma-shadow-h), var(--bulma-shadow-s), var(--bulma-shadow-l), 0.1),
+    0 0px 0 1px
+      hsla(
+        var(--bulma-shadow-h),
+        var(--bulma-shadow-s),
+        var(--bulma-shadow-l),
+        0.02
+      ) !important;
 }
 
 .tag.tier-dogshit {
@@ -48,12 +51,13 @@
   background-size: 400%;
   background-position-x: 100%;
   animation: shimmer 1.5s 3s infinite ease-out;
-  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7), 1px 1px 1px rgba(0, 0, 0, 0.7);
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7),
+    1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 @keyframes shimmer {
   to {
-    background-position-x: 0%
+    background-position-x: 0%;
   }
 }
 

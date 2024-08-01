@@ -52,7 +52,7 @@
     "dlx": "^0.2.1",
     "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
-    "typescript-eslint": "^8.0.0"
+    "prettier": "3.3.3"
   },
   "packageManager": "yarn@4.2.2+sha224.1e50daf19e5e249a025569752c60b88005fddf57d10fcde5fc68b88f"
 }
