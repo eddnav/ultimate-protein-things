@@ -51,7 +51,8 @@
   background-size: 400%;
   background-position-x: 100%;
   animation: shimmer 1.5s 3s infinite ease-out;
-  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.7),
+  text-shadow:
+    -1px -1px 1px rgba(255, 255, 255, 0.7),
     1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 

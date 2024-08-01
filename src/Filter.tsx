@@ -30,7 +30,7 @@ function Filter({ column }: { column: Column<any, unknown> }) {
             .map(toKeyAndUserFacingStringTuple)
             .slice(0, 5000),
     // eslint-disable-next-line
-    [column.getFacetedUniqueValues(), filterVariant]
+    [column.getFacetedUniqueValues(), filterVariant],
   );
 
   return filterVariant === "range" ? (

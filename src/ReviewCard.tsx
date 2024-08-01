@@ -23,7 +23,7 @@ export function ReviewCard({ row }: { row: Row<Review> }) {
           <div className="media-right">
             <span
               className={`tag is-large ${Tier.getTagClassName(
-                row.original.tier
+                row.original.tier,
               )}`}
             >
               {row.original.tier}

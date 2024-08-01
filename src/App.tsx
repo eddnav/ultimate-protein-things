@@ -88,7 +88,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/data.json"
+        "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/data.json",
       );
       const result: [Review] = await response.json();
       setData(result);
@@ -115,7 +115,7 @@ function App() {
                     <div className="mb-1">
                       {flexRender(
                         header.column.columnDef.header,
-                        header.getContext()
+                        header.getContext(),
                       )}
                     </div>
                     <div>
@@ -123,8 +123,8 @@ function App() {
                     </div>
                   </div>
                 </div>
-              ) : null
-            )
+              ) : null,
+            ),
           )}
         </div>
       </div>
