@@ -2,7 +2,7 @@
   --bulma-shadow: 0 0.125em 0.65em -0.125em hsla(var(--bulma-shadow-h),
       var(--bulma-shadow-s),
       var(--bulma-shadow-l), 0.1),
-      0 0px 0 1px hsla(var(--bulma-shadow-h),
+    0 0px 0 1px hsla(var(--bulma-shadow-h),
       var(--bulma-shadow-s), var(--bulma-shadow-l), 0.02) !important;
 }
 
@@ -70,6 +70,7 @@
   break-inside: avoid;
   margin-bottom: 16px;
 }
+
 @media (max-width: 1408px) {
   .container.is-fluid {
     padding-left: 0 !important;
@@ -86,5 +87,5 @@
 @media (min-width: 1408px) {
   .masonry-columns {
     column-count: 3;
-  } 
+  }
 }

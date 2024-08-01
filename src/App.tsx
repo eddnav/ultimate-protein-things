@@ -6,121 +6,12 @@ import { ProductType } from './models/ProductType';
 import 'bulma/css/bulma.min.css';
 import "@fortawesome/fontawesome-free/css/all.css";
 import { Tier } from './models/Tier';
+import Filter from './Filter';
+import { ReviewCard } from './ReviewCard';
 
 // TODO: Fix formatting eslint + prettier
 // TODO: Fix favico and logos
-// TODO: Fix this code, split it
 
-declare module '@tanstack/react-table' {
-  interface ColumnMeta<TData extends RowData, TValue> {
-    filterVariant?: 'text' | 'range' | 'select'
-  }
-}
-
-function toKeyAndUserFacingStringTuple(key: any): [any, any] {
-  if (Object.keys(ProductType).includes(key)) {
-    return [key, ProductType.toString(key)]
-  } else {
-    return [key, key]
-  }
-}
-
-function Filter({ column }: { column: Column<any, unknown> }) {
-
-  const { filterVariant } = column.columnDef.meta ?? {}
-
-  const columnFilterValue = column.getFilterValue()
-
-  const uniqueValues = React.useMemo(
-    () =>
-      filterVariant === 'range'
-        ? []
-        : Array.from(column.getFacetedUniqueValues().keys())
-          .map(toKeyAndUserFacingStringTuple)
-          .slice(0, 5000),
-    [column.getFacetedUniqueValues(), filterVariant]
-  )
-
-  return filterVariant === 'range' ? (
-    <div className='columns is-1'>
-      <div className='column'>
-        <DebouncedInput
-          value={(columnFilterValue as [number, number])?.[0] ?? ''}
-          onChange={value =>
-            column.setFilterValue((old: [number, number]) => [value, old?.[1]])
-          }
-          placeholder={`Min ${column.getFacetedMinMaxValues()?.[0] !== undefined
-            ? `(${column.getFacetedMinMaxValues()?.[0]})`
-            : ''
-            }`}
-        />
-      </div>
-      <div className='column'>
-        <DebouncedInput
-          value={(columnFilterValue as [number, number])?.[1] ?? ''}
-          onChange={value =>
-            column.setFilterValue((old: [number, number]) => [old?.[0], value])
-          }
-          placeholder={`Max ${column.getFacetedMinMaxValues()?.[1]
-            ? `(${column.getFacetedMinMaxValues()?.[1]})`
-            : ''
-            }`}
-        />
-      </div>
-    </div>
-  ) : filterVariant === 'select' ? (
-    <div className="select is-fullwidth">
-      <select
-        onChange={e => column.setFilterValue(e.target.value)}
-        value={columnFilterValue?.toString()}
-      >
-        <option value="">All</option>
-        {uniqueValues.map(value => (
-          <option value={value[0]} key={value[0]}>
-            {value[1]}
-          </option>
-        ))}
-      </select>
-    </div>
-  ) : (
-    <DebouncedInput
-      type="text"
-      value={(columnFilterValue ?? '') as string}
-      onChange={value => column.setFilterValue(value)}
-      placeholder={`Search... (${column.getFacetedUniqueValues().size})`}
-    />
-  )
-}
-
-function DebouncedInput({
-  value: initialValue,
-  onChange,
-  debounce = 500,
-  ...props
-}: {
-  value: string | number
-  onChange: (value: string | number) => void
-  debounce?: number
-} & Omit<React.InputHTMLAttributes<HTMLInputElement>, 'onChange'>) {
-
-  const [value, setValue] = useState(initialValue)
-
-  useEffect(() => {
-    setValue(initialValue)
-  }, [initialValue])
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      onChange(value)
-    }, debounce)
-
-    return () => clearTimeout(timeout)
-  }, [value])
-
-  return (
-    <input className="input" {...props} value={value} onChange={e => setValue(e.target.value)} />
-  )
-}
 
 function App() {
 
@@ -128,9 +19,9 @@ function App() {
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>(
     []
   )
-  const [expanded, setExpanded] = useState<ExpandedState>({})
 
   const helper = createColumnHelper<Review>()
+
   const columns = [
     helper.accessor('product.imageUrl', {
       header: () => <></>,
@@ -180,11 +71,9 @@ function App() {
     data,
     columns,
     state: {
-      expanded,
       columnFilters,
     },
     onColumnFiltersChange: setColumnFilters,
-    onExpandedChange: setExpanded,
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getFacetedRowModel: getFacetedRowModel(),
@@ -232,96 +121,14 @@ function App() {
         </div>
       </div>
       <div className='container is-fluid'>
-          <div className='masonry-columns'>
-            {table.getRowModel().rows.map(row => (
-              <div className='masonry-item' key={row.id}>
-                <div className='card'>
-                  <div className="card-content">
-                    <div className="media">
-                      <div className="media-left">
-                        <figure className="image is-64x64">
-                          <img src={row.original.product.imageUrl} />
-                        </figure>
-                      </div>
-                      <div className="media-content no-scrolling">
-                        <p className="subtitle is-6 text-ellipsis">{row.original.product.brand}</p>
-                        <p className="title is-4 ">{row.original.product.name}</p>
-                      </div>
-                      <div className='media-right'>
-                        <span className={`tag is-large ${Tier.getTagClassName(row.original.tier)}`}>{row.original.tier}</span>
-                      </div>
-                    </div>
-                      <div>
-                        <div className="columns">
-                          <div className="column">
-                            <h4 className='title is-4'>Good</h4>
-                            {row.original.pros.map(data =>
-                              <div className="icon-text">
-                                <span className="icon has-text-success">
-                                  <i className="fa-solid fa-plus"></i>
-                                </span>
-                                <span>{data}</span>
-                              </div>
-                            )}
-                          </div>
-                          <div className="column">
-                            <h4 className='title is-4'>Bad</h4>
-                            {row.original.cons.map(data =>
-                              <div className="icon-text">
-                                <span className="icon has-text-danger">
-                                  <i className="fa-solid fa-minus"></i>
-                                </span>
-                                <span>{data}</span>
-                              </div>
-                            )}
-                          </div>
-                        </div>
-                        <div>
-                          <h4 className='title is-4'>About</h4>
-                          <div className="icon-text">
-                            <span className="icon has-text-info">
-                              <i className="fa-solid fa-comment-dots"></i>
-                            </span>
-                            <span>{row.original.comparison}</span>
-                          </div>
-                          <div className="icon-text">
-                            <span className="icon has-text-info">
-                              <i className="fa-solid fa-puzzle-piece"></i>
-                            </span>
-                            <span>{ProductType.toString(row.original.product.type)}</span>
-                          </div>
-                          <div className="icon-text">
-                            <span className="icon has-text-info">
-                              <i className="fa-solid fa-fire"></i>
-                            </span>
-                            <span>{`${row.original.product.caloriesInKcal}kcal per portion`}</span>
-                          </div>
-                          <div className="icon-text">
-                            <span className="icon has-text-info">
-                              <i className="fa-solid fa-dumbbell"></i>
-                            </span>
-                            <span>{`${row.original.product.proteinInGrams}g of protein per portion`}</span>
-                          </div>
-                          <div className="icon-text">
-                            <span className="icon has-text-info">
-                              <i className="fa-solid fa-weight-hanging"></i>
-                            </span>
-                            <span>{`${row.original.product.weightInGrams}g per portion`}</span>
-                          </div>
-                          <div className="icon-text">
-                            <span className="icon has-text-info">
-                              <i className="fa-solid fa-calendar"></i>
-                            </span>
-                            <span>Reviewed in {row.original.reviewYear}</span>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className='masonry-columns'>
+          {table.getRowModel().rows.map(row => (
+            <div className='masonry-item' key={row.id}>
+              <ReviewCard row={row} />
+            </div>
+          ))}
         </div>
+      </div>
     </section>
   );
 }
