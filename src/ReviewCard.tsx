@@ -79,7 +79,7 @@ export function ReviewCard({ row }: { row: Row<Review> }) {
               <span className="icon has-text-info">
                 <i className="fa-solid fa-dumbbell"></i>
               </span>
-              <span>{`${row.original.product.proteinInGrams}g of protein per portion`}</span>
+              <span>{`${row.original.product.proteinInGrams}g of protein per portion (${(row.original.product.caloriesInKcal / row.original.product.proteinInGrams).toFixed(2)}kcal per gram)`}</span>
             </div>
             <div className="icon-text">
               <span className="icon has-text-info">
