@@ -3,9 +3,9 @@ import { Tier } from "./models/Tier";
 import { Review } from "./models/Review";
 import { ProductType } from "./models/ProductType";
 
-export function ReviewCard({ review, ...rest }: { review: Review }) {
+export function ReviewCard({ review }: { review: Review }) {
   return (
-    <div className="card" {...rest}>
+    <div className="card">
       <div className="card-content">
         <div className="media">
           <div className="media-left">
@@ -29,8 +29,8 @@ export function ReviewCard({ review, ...rest }: { review: Review }) {
           </div>
         </div>
         <h4 className="title is-4">Good</h4>
-        {review.good.map((data) => (
-          <div className="icon-text">
+        {review.good.map((data, index) => (
+          <div className="icon-text" key={index}>
             <span className="icon has-text-success">
               <i className="fa-solid fa-plus"></i>
             </span>
@@ -38,8 +38,8 @@ export function ReviewCard({ review, ...rest }: { review: Review }) {
           </div>
         ))}
         <h4 className="title is-4 mt-5">Bad</h4>
-        {review.bad.map((data) => (
-          <div className="icon-text">
+        {review.bad.map((data, index) => (
+          <div className="icon-text" key={index}>
             <span className="icon has-text-danger">
               <i className="fa-solid fa-minus"></i>
             </span>
