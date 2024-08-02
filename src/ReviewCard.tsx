@@ -3,95 +3,87 @@ import { Tier } from "./models/Tier";
 import { Review } from "./models/Review";
 import { ProductType } from "./models/ProductType";
 
-export function ReviewCard({ row }: { row: Row<Review> }) {
+export function ReviewCard({ review, ...rest }: { review: Review }) {
   return (
-    <div className="card">
+    <div className="card" {...rest}>
       <div className="card-content">
         <div className="media">
           <div className="media-left">
             <figure className="image is-64x64">
               {/* eslint-disable-next-line */}
-              <img src={row.original.product.imageUrl} />
+              <img src={review.product.imageUrl} />
             </figure>
           </div>
           <div className="media-content no-scrolling">
             <p className="subtitle is-6 text-ellipsis">
-              {row.original.product.brand}
+              {review.product.brand}
             </p>
-            <p className="title is-4">{row.original.product.name}</p>
+            <p className="title is-4">{review.product.name}</p>
           </div>
           <div className="media-right">
             <span
-              className={`tag is-large ${Tier.getTagClassName(
-                row.original.tier,
-              )}`}
+              className={`tag is-large ${Tier.getTagClassName(review.tier)}`}
             >
-              {row.original.tier}
+              {review.tier}
             </span>
           </div>
         </div>
-        <div>
-          <div>
-            <h4 className="title is-4">Good</h4>
-            {row.original.pros.map((data) => (
-              <div className="icon-text">
-                <span className="icon has-text-success">
-                  <i className="fa-solid fa-plus"></i>
-                </span>
-                <span>{data}</span>
-              </div>
-            ))}
+        <h4 className="title is-4">Good</h4>
+        {review.good.map((data) => (
+          <div className="icon-text">
+            <span className="icon has-text-success">
+              <i className="fa-solid fa-plus"></i>
+            </span>
+            <span>{data}</span>
           </div>
-          <div>
-            <h4 className="title is-4 mt-6">Bad</h4>
-            {row.original.cons.map((data) => (
-              <div className="icon-text">
-                <span className="icon has-text-danger">
-                  <i className="fa-solid fa-minus"></i>
-                </span>
-                <span>{data}</span>
-              </div>
-            ))}
+        ))}
+        <h4 className="title is-4 mt-5">Bad</h4>
+        {review.bad.map((data) => (
+          <div className="icon-text">
+            <span className="icon has-text-danger">
+              <i className="fa-solid fa-minus"></i>
+            </span>
+            <span>{data}</span>
           </div>
-          <div>
-            <h4 className="title is-4 mt-4">About</h4>
-            <div className="icon-text">
-              <span className="icon has-text-info">
-                <i className="fa-solid fa-comment-dots"></i>
-              </span>
-              <span>{row.original.comparison}</span>
-            </div>
-            <div className="icon-text">
-              <span className="icon has-text-info">
-                <i className="fa-solid fa-puzzle-piece"></i>
-              </span>
-              <span>{ProductType.toString(row.original.product.type)}</span>
-            </div>
-            <div className="icon-text">
-              <span className="icon has-text-info">
-                <i className="fa-solid fa-fire"></i>
-              </span>
-              <span>{`${row.original.product.caloriesInKcal}kcal per portion`}</span>
-            </div>
-            <div className="icon-text">
-              <span className="icon has-text-info">
-                <i className="fa-solid fa-dumbbell"></i>
-              </span>
-              <span>{`${row.original.product.proteinInGrams}g of protein per portion (${(row.original.product.caloriesInKcal / row.original.product.proteinInGrams).toFixed(2)}kcal per gram)`}</span>
-            </div>
-            <div className="icon-text">
-              <span className="icon has-text-info">
-                <i className="fa-solid fa-weight-hanging"></i>
-              </span>
-              <span>{`${row.original.product.weightInGrams}g per portion`}</span>
-            </div>
-            <div className="icon-text">
-              <span className="icon has-text-info">
-                <i className="fa-solid fa-calendar"></i>
-              </span>
-              <span>Reviewed in {row.original.reviewYear}</span>
-            </div>
+        ))}
+        <h4 className="title is-4 mt-5">About</h4>
+        {review.comparison ? (
+          <div className="icon-text">
+            <span className="icon has-text-info">
+              <i className="fa-solid fa-comment-dots"></i>
+            </span>
+            <span>{review.comparison}</span>
           </div>
+        ) : null}
+        <div className="icon-text">
+          <span className="icon has-text-info">
+            <i className="fa-solid fa-puzzle-piece"></i>
+          </span>
+          <span>{ProductType.toString(review.product.type)}</span>
+        </div>
+        <div className="icon-text">
+          <span className="icon has-text-info">
+            <i className="fa-solid fa-fire"></i>
+          </span>
+          <span>{`${review.product.caloriesInKcal}kcal per portion`}</span>
+        </div>
+        <div className="icon-text">
+          <span className="icon has-text-info">
+            <i className="fa-solid fa-dumbbell"></i>
+          </span>
+          <span>{`${review.product.proteinInGrams}g of protein per portion (${(review.product.caloriesInKcal / review.product.proteinInGrams).toFixed(2)}kcal per gram)`}</span>
+        </div>
+        <div className="icon-text">
+          <span className="icon has-text-info">
+            <i className="fa-solid fa-weight-hanging"></i>
+          </span>
+          <span>{`${review.product.weightInGrams}g per portion`}</span>
+        </div>
+        <div className="icon-text">
+          <span className="icon has-text-info">
+            <i className="fa-solid fa-calendar"></i>
+          </span>
+          <span>Reviewed in {review.year}</span>
         </div>
       </div>
     </div>

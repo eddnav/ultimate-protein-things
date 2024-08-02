@@ -3,10 +3,10 @@ import { Tier } from "./Tier";
 
 export interface Review {
   slug: string;
-  pros: [string];
-  cons: [string];
+  good: string[];
+  bad: string[];
   comparison: string | null;
   product: Product;
   tier: Tier;
-  reviewYear: number;
+  year: number;
 }

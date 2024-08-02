@@ -89,7 +89,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/data.json",
+        "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/reviews.yaml",
       );
       const data = await response.text();
       const result: Review[] = parseData(data);
@@ -133,8 +133,8 @@ function App() {
       <div className="container is-fluid">
         <div className="masonry-columns">
           {table.getRowModel().rows.map((row) => (
-            <div className="masonry-item" key={row.id}>
-              <ReviewCard row={row} />
+            <div className="masonry-item" key={row.original.slug}>
+              <ReviewCard review={row.original} />
             </div>
           ))}
         </div>

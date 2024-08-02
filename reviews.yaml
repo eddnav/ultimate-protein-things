@@ -1,10 +1,9 @@
 - name: Grenade Oreo
-  imageUrl: https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/assets/img/grenade-oreo.avif
-  pros:
+  good:
     - Tastes very much like Oreo
     - Very candy-like
     - Nicely sweet
-  cons:
+  bad:
     - High calorie (worth it though)
   comparison: Chewy Oreo bar
   brand: Grenade
@@ -14,18 +13,16 @@
   proteinInGrams: 21
   sugarInGrams: 1.02
   tier: S
-  reviewYear: 2023
+  year: 2023
 
 - name: Grenade White Chocolate Salted Peanut
-  imageUrl: https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/assets/img/grenade-white-chocolate-salted-peanut.avif
-  pros:
+  good:
     - Candy-like
     - Nice white chocolate flavour
     - Peanuts on top
-  cons:
+  bad:
     - Tad chewy
     - High calorie
-  comparison: N/A
   brand: Grenade
   type: ProteinBar
   weightInGrams: 60
@@ -33,4 +30,4 @@
   proteinInGrams: 19.8
   sugarInGrams: 2.04
   tier: B
-  reviewYear: 2023
+  year: 2023

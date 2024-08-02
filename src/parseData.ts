@@ -12,15 +12,14 @@ function getSlug(input: string): string {
 export default function parseData(data: string): Review[] {
   const yamlData = yaml.load(data) as any[];
   return yamlData.map((item) => {
-    console.log("my item: " + item);
     const slug = getSlug(item.name);
     return {
       slug: slug,
-      pros: item.pros,
-      cons: item.cons,
+      good: item.good,
+      bad: item.bad,
       comparison: item.comparison,
       product: {
-        imageUrl: `"https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/assets/img/${slug}.avif"`,
+        imageUrl: `https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/assets/img/${slug}.avif`,
         name: item.name,
         brand: item.brand,
         type: item.type,
@@ -30,7 +29,7 @@ export default function parseData(data: string): Review[] {
         sugarInGrams: parseFloat(item.sugarInGrams),
       },
       tier: item.tier,
-      reviewYear: parseInt(item.reviewYear, 10),
+      year: parseInt(item.year, 10),
     };
   });
 }
