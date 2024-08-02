@@ -16,6 +16,7 @@ import "bulma/css/bulma.min.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import Filter from "./Filter";
 import { ReviewCard } from "./ReviewCard";
+import parseData from "./parseData";
 
 function App() {
   const [data, setData] = useState<Review[]>([]);
@@ -90,7 +91,8 @@ function App() {
       const response = await fetch(
         "https://raw.githubusercontent.com/eddnav/ultimate-protein-things/main/data.json",
       );
-      const result: [Review] = await response.json();
+      const data = await response.text();
+      const result: Review[] = parseData(data);
       setData(result);
     };
     fetchData();

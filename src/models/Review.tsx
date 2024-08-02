@@ -5,7 +5,7 @@ export interface Review {
   slug: string;
   pros: [string];
   cons: [string];
-  comparison: [string];
+  comparison: string | null;
   product: Product;
   tier: Tier;
   reviewYear: number;

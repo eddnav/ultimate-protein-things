@@ -18,7 +18,7 @@ export function ReviewCard({ row }: { row: Row<Review> }) {
             <p className="subtitle is-6 text-ellipsis">
               {row.original.product.brand}
             </p>
-            <p className="title is-4 ">{row.original.product.name}</p>
+            <p className="title is-4">{row.original.product.name}</p>
           </div>
           <div className="media-right">
             <span
@@ -31,32 +31,30 @@ export function ReviewCard({ row }: { row: Row<Review> }) {
           </div>
         </div>
         <div>
-          <div className="columns">
-            <div className="column">
-              <h4 className="title is-4">Good</h4>
-              {row.original.pros.map((data) => (
-                <div className="icon-text">
-                  <span className="icon has-text-success">
-                    <i className="fa-solid fa-plus"></i>
-                  </span>
-                  <span>{data}</span>
-                </div>
-              ))}
-            </div>
-            <div className="column">
-              <h4 className="title is-4">Bad</h4>
-              {row.original.cons.map((data) => (
-                <div className="icon-text">
-                  <span className="icon has-text-danger">
-                    <i className="fa-solid fa-minus"></i>
-                  </span>
-                  <span>{data}</span>
-                </div>
-              ))}
-            </div>
+          <div>
+            <h4 className="title is-4">Good</h4>
+            {row.original.pros.map((data) => (
+              <div className="icon-text">
+                <span className="icon has-text-success">
+                  <i className="fa-solid fa-plus"></i>
+                </span>
+                <span>{data}</span>
+              </div>
+            ))}
           </div>
           <div>
-            <h4 className="title is-4">About</h4>
+            <h4 className="title is-4 mt-6">Bad</h4>
+            {row.original.cons.map((data) => (
+              <div className="icon-text">
+                <span className="icon has-text-danger">
+                  <i className="fa-solid fa-minus"></i>
+                </span>
+                <span>{data}</span>
+              </div>
+            ))}
+          </div>
+          <div>
+            <h4 className="title is-4 mt-4">About</h4>
             <div className="icon-text">
               <span className="icon has-text-info">
                 <i className="fa-solid fa-comment-dots"></i>

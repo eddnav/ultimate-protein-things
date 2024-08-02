@@ -91,6 +91,6 @@
 
 @media (min-width: 1408px) {
   .masonry-columns {
-    column-count: 3;
+    column-count: 4;
   }
 }
