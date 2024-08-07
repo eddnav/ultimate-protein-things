@@ -161,3 +161,19 @@
   sugarInGrams: 1.5
   tier: S
   year: 2024
+
+- name: Chocolate Brownie Crunch Protein Bar
+  good:
+    - Crunchy
+    - Chocolate coating on the bottom.
+  bad:
+    - Tastes and smells like plastic
+    - Extremely fake sweet flavour
+  brand: Optimum Nutrition
+  type: ProteinBar
+  weightInGrams: 65
+  caloriesInKcal: 212.55
+  proteinInGrams: 20.15
+  sugarInGrams: 1.82
+  tier: F
+  year: 2024
