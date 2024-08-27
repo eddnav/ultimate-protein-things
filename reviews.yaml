@@ -165,7 +165,7 @@
 - name: Chocolate Brownie Crunch Protein Bar
   good:
     - Crunchy
-    - Chocolate coating on the bottom.
+    - Chocolate coating on the bottom
   bad:
     - Tastes and smells like plastic
     - Extremely fake sweet flavour
@@ -177,3 +177,25 @@
   sugarInGrams: 1.82
   tier: F
   year: 2024
+
+- name: Plenny Bar V3 Almond & Fig
+  good:
+    - Hefty
+    - Very nutricious
+  bad:
+    - Actually not a candy bar, it's a "meal" bar
+    - Dry
+    - Hard as fuck
+    - Chemical-y tasting
+    - Extremely chewy
+    - High in calories
+    - Low protein to calorie ratio
+    - Actually dogshit, made a new tier of its own
+  brand: Jimmy Joy
+  type: ProteinBar
+  weightInGrams: 100
+  caloriesInKcal: 400
+  proteinInGrams: 20
+  sugarInGrams: 8.4
+  tier: Dogshit
+  year: 2023
