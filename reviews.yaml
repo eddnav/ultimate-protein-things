@@ -50,7 +50,7 @@
   tier: B
   year: 2023
 
-- name: Birthday Cake
+- name: Birthday Cake Protein Bar
   good:
     - Not overly sweet
     - Nice chocolate flavour, not super chewy
@@ -199,3 +199,172 @@
   sugarInGrams: 8.4
   tier: Dogshit
   year: 2023
+
+- name: Dark Chocolate Salted Caramel Flavour Vitamin & Protein Bar
+  good:
+    - Sweet
+    - Crunchy poppings on the top
+    - Caramel reminds me of dulce de leche
+    - Fudgey
+  bad:
+    - Slight proteiny after taste
+  brand: Fulfill
+  type: ProteinBar
+  weightInGrams: 55
+  caloriesInKcal: 206.8
+  proteinInGrams: 20.57
+  sugarInGrams: 0.61
+  tier: A
+  year: 2023
+
+- name: Chocolate Sea Salt Crunch Protein Bar
+  good:
+    - Crunchy poppings on the top
+    - Unique texture, thin bar
+    - Sweet and salty
+  bad:
+    - Proteiny after taste
+  brand: Optimum Nutrition
+  type: ProteinBar
+  weightInGrams: 55
+  caloriesInKcal: 221.1
+  proteinInGrams: 17.6
+  sugarInGrams: 1.87
+  tier: B
+  year: 2024
+
+- name: ChocoPro
+  good:
+    - Nice chocolate flavour
+    - Virtually no sugar
+    - Vegan
+  bad:
+    - Ever so slightly grainy
+    - Low protein to calorie ratio
+    - What's making this thing sweet?
+  brand: Body & Fit
+  comparison: It's a chocolate bar lol
+  type: ProteinChocolateBar
+  weightInGrams: 85
+  caloriesInKcal: 436.9
+  proteinInGrams: 16.405
+  sugarInGrams: 0.17
+  tier: A
+  year: 2024
+
+- name: Peanut & Salted Caramel Whipped Protein Bar
+  good:
+    - Soft, satisfying texture
+    - Peanuty
+  bad:
+    - Where's the caramel
+    - Constant protein hint
+    - Way too sweet
+  brand: Optimum Nutrition
+  type: ProteinBar
+  weightInGrams: 68
+  caloriesInKcal: 226.44
+  proteinInGrams: 19.72
+  sugarInGrams: 2.516
+  tier: C
+  year: 2024
+
+- name: Peanut Butter Crispy Protein Bar
+  good:
+    - Nice chocolate coating, not advertised
+    - Crunchy
+    - Hefty
+  bad:
+    - Can't think of anything
+  brand: Optimum Nutrition
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 196.2
+  proteinInGrams: 20.4
+  sugarInGrams: 1.98
+  tier: S
+  year: 2024
+
+- name: Whey Choco Duo Swirl Flavour
+  good:
+    - Very tasty chocolate spread
+  bad:
+    - Low protein to calorie ratio
+  comparison: It's just Duo Penotti
+  brand: Body & Fit
+  type: ProteinSpread
+  weightInGrams: 250
+  caloriesInKcal: 1290
+  proteinInGrams: 52.50
+  sugarInGrams: 1.75
+  tier: S
+  year: 2024
+
+- name: Vegan Protein Cookie Double Chocolate Flavour
+  good:
+    - Chunky with chocolate bits
+    - Dense
+    - Chewy, in a nice way
+  bad:
+    - Bit of a pea protein flavour
+    - Protein content is just okay
+  brand: Body & Fit
+  type: ProteinCookie
+  weightInGrams: 50
+  caloriesInKcal: 172.5
+  proteinInGrams: 12.5
+  sugarInGrams: 1.75
+  tier: C
+  year: 2024
+
+- name: Brownie Vegan Protein Bar
+  good:
+    - Dense
+    - Soft
+    - Chocolatey
+    - Bits of crunch
+  bad:
+    - Slight hint of protein flavour
+    - Lower than average protein content
+  brand: Lidl
+  type: ProteinBar
+  weightInGrams: 40
+  caloriesInKcal: 151.6
+  proteinInGrams: 10.4
+  sugarInGrams: 0.6
+  tier: B
+  year: 2024
+
+- name: Cookies & Cream Vegan Protein Bar
+  good:
+    - Dense
+    - Soft
+    - Coconut flavour, for some reason
+  bad:
+    - Hint of protein flavour
+    - Lower than average protein content
+    - It tastes nothing like cookies and cream
+  brand: Lidl
+  type: ProteinBar
+  weightInGrams: 40
+  caloriesInKcal: 148.8
+  proteinInGrams: 10.4
+  sugarInGrams: 0.68
+  tier: C
+  year: 2024
+
+- name: High Protein Milk Chocolate Crisp
+  good:
+    - Chocolate flavour on point
+    - Nice crispy poppings for texture
+  bad:
+    - Protein after taste, a bit bitter
+    - Just okay protein to calorie ratio
+  brand: Lidl
+  type: ProteinChocolateBar
+  weightInGrams: 90
+  caloriesInKcal: 455.4
+  proteinInGrams: 27
+  sugarInGrams: 7.11
+  tier: A
+  year: 2024
