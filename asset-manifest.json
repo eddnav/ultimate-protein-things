@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ultimate-protein-things/static/css/main.c2ac48b5.css",
-    "main.js": "/ultimate-protein-things/static/js/main.d73a3f33.js",
+    "main.css": "/ultimate-protein-things/static/css/main.c40c9d13.css",
+    "main.js": "/ultimate-protein-things/static/js/main.d711dadd.js",
     "static/js/453.91ff6197.chunk.js": "/ultimate-protein-things/static/js/453.91ff6197.chunk.js",
     "static/media/fa-solid-900.ttf": "/ultimate-protein-things/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/ultimate-protein-things/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/ultimate-protein-things/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/ultimate-protein-things/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/ultimate-protein-things/index.html",
-    "main.c2ac48b5.css.map": "/ultimate-protein-things/static/css/main.c2ac48b5.css.map",
-    "main.d73a3f33.js.map": "/ultimate-protein-things/static/js/main.d73a3f33.js.map",
+    "main.c40c9d13.css.map": "/ultimate-protein-things/static/css/main.c40c9d13.css.map",
+    "main.d711dadd.js.map": "/ultimate-protein-things/static/js/main.d711dadd.js.map",
     "453.91ff6197.chunk.js.map": "/ultimate-protein-things/static/js/453.91ff6197.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2ac48b5.css",
-    "static/js/main.d73a3f33.js"
+    "static/css/main.c40c9d13.css",
+    "static/js/main.d711dadd.js"
   ]
 }
