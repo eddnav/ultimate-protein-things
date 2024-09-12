@@ -56,6 +56,11 @@
     1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
+.picture {
+  background-color: white;
+  object-fit: contain;
+}
+
 @keyframes shimmer {
   to {
     background-position-x: 0%;
