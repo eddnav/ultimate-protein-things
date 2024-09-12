@@ -12,7 +12,7 @@ function getSlug(input: string): string {
 export default function parseData(data: string): Review[] {
   const yamlData = yaml.load(data) as any[];
   return yamlData.map((item) => {
-    const slug = getSlug(item.name);
+    const slug = getSlug(`${item.brand} ${item.name}`);
     return {
       slug: slug,
       good: item.good,
