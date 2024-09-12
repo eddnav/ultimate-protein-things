@@ -1,6 +1,8 @@
 export enum ProductType {
   ProteinBar = "ProteinBar",
   ProteinCookie = "ProteinCookie",
+  ProteinChocolateBar = "ProteinChocolateBar",
+  ProteinSpread = "ProteinSpread",
 }
 
 export namespace ProductType {
@@ -10,6 +12,10 @@ export namespace ProductType {
         return "Protein Bar";
       case ProductType.ProteinCookie:
         return "Protein Cookie";
+      case ProductType.ProteinChocolateBar:
+        return "Protein Chocolate Bar";
+      case ProductType.ProteinSpread:
+        return "Protein Spread";
     }
   }
 }
