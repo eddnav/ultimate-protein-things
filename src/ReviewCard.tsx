@@ -1,4 +1,3 @@
-import { Row } from "@tanstack/table-core";
 import { Tier } from "./models/Tier";
 import { Review } from "./models/Review";
 import { ProductType } from "./models/ProductType";

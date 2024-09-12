@@ -1,0 +1,201 @@
+- name: Chocolate Chip Salted Caramel Protein Bar
+  good:
+    - Very fudgey
+    - Lots of sweet and salty contrast
+    - Chocolate chip toppings for texture
+    - Very low sugar
+  bad:
+    - Tiny bit chewy
+    - Bit high calorie
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 225.6
+  proteinInGrams: 18.15
+  sugarInGrams: 1.5
+  tier: A
+  year: 2023
+
+- name: Oreo Protein Bar
+  good:
+    - Tastes very much like Oreo
+    - Very candy-like
+    - Nicely sweet
+  bad:
+    - High calorie (worth it though)
+  comparison: Chewy Oreo bar
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 233.4
+  proteinInGrams: 21
+  sugarInGrams: 1.02
+  tier: S
+  year: 2023
+
+- name: White Chocolate Salted Peanut Protein Bar
+  good:
+    - Candy-like
+    - Nice white chocolate flavour
+    - Peanuts on top
+  bad:
+    - Tad chewy
+    - High calorie
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 241.8
+  proteinInGrams: 19.8
+  sugarInGrams: 2.04
+  tier: B
+  year: 2023
+
+- name: Birthday Cake
+  good:
+    - Not overly sweet
+    - Nice chocolate flavour, not super chewy
+  bad:
+    - The colored sugar dots are not very pleasant texture-wise
+    - Bit high calorie
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 212.4
+  proteinInGrams: 20.4
+  sugarInGrams: 1.62
+  tier: B
+  year: 2023
+
+- name: Dark Chocolate Raspberry Protein Bar
+  good:
+    - Candy-like
+    - Lots of goopage
+    - Crunchy bits on top
+    - Fruity
+    - Low sugar
+  bad:
+    - Way too sweet
+    - Plasticky, super artificial flavour and aftertaste
+    - Bit high calorie
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 219
+  proteinInGrams: 19.8
+  sugarInGrams: 0.84
+  tier: D
+  year: 2023
+
+- name: Fudged Up Protein Bar
+  good:
+    - Candy-like
+    - Shardy chocolate
+    - Slight coffee hint
+  bad:
+    - Bit tough and chewy
+    - Thin chocolate layer
+    - Protein aftertaste
+    - High calorie
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 232.2
+  proteinInGrams: 20.4
+  sugarInGrams: 1.68
+  tier: B
+  year: 2023
+
+- name: Cookie Dough Protein Bar
+  good:
+    - Unhealthy tasting
+    - Not chewy
+    - Cookie chips on the top
+  bad:
+    - Despite the cookie chips, the texture is a bit boring and uniform
+    - Bit high calorie
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 211.8
+  proteinInGrams: 20.4
+  sugarInGrams: 1.5
+  tier: A
+  year: 2023
+
+- name: Oreo White Protein Bar
+  good:
+    - Tastes very much like Oreo
+    - Very candy-like
+    - Nicely sweet
+    - White chocolate flavour is in your face
+    - Unhealthy tasting
+    - A bit of a creamy flavour
+  bad:
+    - Not chewy
+    - Crunchy bits on the top
+    - Lots of protein
+  comparison: Chewy Oreo bar
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 232.2
+  proteinInGrams: 20.4
+  sugarInGrams: 1.26
+  tier: S
+  year: 2024
+
+- name: White Chocolate Cookie Protein Bar
+  good:
+    - Unhealthy tasting
+    - Not chewy
+    - Crunchy bits on the top
+    - Creamy tasting
+    - Lots of protein
+  bad:
+    - Bit high calorie
+  brand: Grenade
+  type: ProteinBar
+  weightInGrams: 60
+  caloriesInKcal: 211.4
+  proteinInGrams: 21.6
+  sugarInGrams: 1.5
+  tier: S
+  year: 2024
+
+- name: Chocolate Brownie Crunch Protein Bar
+  good:
+    - Crunchy
+    - Chocolate coating on the bottom
+  bad:
+    - Tastes and smells like plastic
+    - Extremely fake sweet flavour
+  brand: Optimum Nutrition
+  type: ProteinBar
+  weightInGrams: 65
+  caloriesInKcal: 212.55
+  proteinInGrams: 20.15
+  sugarInGrams: 1.82
+  tier: F
+  year: 2024
+
+- name: Plenny Bar V3 Almond & Fig
+  good:
+    - Hefty
+    - Very nutricious
+  bad:
+    - Actually not a candy bar, it's a "meal" bar
+    - Dry
+    - Hard as fuck
+    - Chemical-y tasting
+    - Extremely chewy
+    - High in calories
+    - Low protein to calorie ratio
+    - Actually dogshit, made a new tier of its own
+  brand: Jimmy Joy
+  type: ProteinBar
+  weightInGrams: 100
+  caloriesInKcal: 400
+  proteinInGrams: 20
+  sugarInGrams: 8.4
+  tier: Dogshit
+  year: 2023
