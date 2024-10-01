@@ -58,7 +58,7 @@
 
 .picture {
   background-color: white;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @keyframes shimmer {
