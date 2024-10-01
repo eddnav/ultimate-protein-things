@@ -9,10 +9,10 @@
     - Bit high calorie
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 225.6
-  proteinInGrams: 18.15
-  sugarInGrams: 1.5
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 225.6
+  portionProteinInGrams: 18.15
+  portionSugarInGrams: 1.5
   tier: A
   year: 2023
 
@@ -26,10 +26,10 @@
   comparison: Chewy Oreo bar
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 233.4
-  proteinInGrams: 21
-  sugarInGrams: 1.02
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 233.4
+  portionProteinInGrams: 21
+  portionSugarInGrams: 1.02
   tier: S
   year: 2023
 
@@ -43,10 +43,10 @@
     - High calorie
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 241.8
-  proteinInGrams: 19.8
-  sugarInGrams: 2.04
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 241.8
+  portionProteinInGrams: 19.8
+  portionSugarInGrams: 2.04
   tier: B
   year: 2023
 
@@ -59,10 +59,10 @@
     - Bit high calorie
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 212.4
-  proteinInGrams: 20.4
-  sugarInGrams: 1.62
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 212.4
+  portionProteinInGrams: 20.4
+  portionSugarInGrams: 1.62
   tier: B
   year: 2023
 
@@ -79,10 +79,10 @@
     - Bit high calorie
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 219
-  proteinInGrams: 19.8
-  sugarInGrams: 0.84
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 219
+  portionProteinInGrams: 19.8
+  portionSugarInGrams: 0.84
   tier: D
   year: 2023
 
@@ -98,10 +98,10 @@
     - High calorie
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 232.2
-  proteinInGrams: 20.4
-  sugarInGrams: 1.68
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 232.2
+  portionProteinInGrams: 20.4
+  portionSugarInGrams: 1.68
   tier: B
   year: 2023
 
@@ -115,10 +115,10 @@
     - Bit high calorie
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 211.8
-  proteinInGrams: 20.4
-  sugarInGrams: 1.5
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 211.8
+  portionProteinInGrams: 20.4
+  portionSugarInGrams: 1.5
   tier: A
   year: 2023
 
@@ -137,10 +137,10 @@
   comparison: Chewy Oreo bar
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 232.2
-  proteinInGrams: 20.4
-  sugarInGrams: 1.26
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 232.2
+  portionProteinInGrams: 20.4
+  portionSugarInGrams: 1.26
   tier: S
   year: 2024
 
@@ -155,10 +155,10 @@
     - Bit high calorie
   brand: Grenade
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 211.4
-  proteinInGrams: 21.6
-  sugarInGrams: 1.5
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 211.4
+  portionProteinInGrams: 21.6
+  portionSugarInGrams: 1.5
   tier: S
   year: 2024
 
@@ -171,10 +171,10 @@
     - Extremely fake sweet flavour
   brand: Optimum Nutrition
   type: ProteinBar
-  weightInGrams: 65
-  caloriesInKcal: 212.55
-  proteinInGrams: 20.15
-  sugarInGrams: 1.82
+  portionWeightInGrams: 65
+  portionCaloriesInKcal: 212.55
+  portionProteinInGrams: 20.15
+  portionSugarInGrams: 1.82
   tier: F
   year: 2024
 
@@ -193,10 +193,10 @@
     - Actually dogshit, made a new tier of its own
   brand: Jimmy Joy
   type: ProteinBar
-  weightInGrams: 100
-  caloriesInKcal: 400
-  proteinInGrams: 20
-  sugarInGrams: 8.4
+  portionWeightInGrams: 100
+  portionCaloriesInKcal: 400
+  portionProteinInGrams: 20
+  portionSugarInGrams: 8.4
   tier: Dogshit
   year: 2023
 
@@ -210,10 +210,10 @@
     - Slight proteiny after taste
   brand: Fulfill
   type: ProteinBar
-  weightInGrams: 55
-  caloriesInKcal: 206.8
-  proteinInGrams: 20.57
-  sugarInGrams: 0.61
+  portionWeightInGrams: 55
+  portionCaloriesInKcal: 206.8
+  portionProteinInGrams: 20.57
+  portionSugarInGrams: 0.61
   tier: A
   year: 2023
 
@@ -226,10 +226,10 @@
     - Proteiny after taste
   brand: Optimum Nutrition
   type: ProteinBar
-  weightInGrams: 55
-  caloriesInKcal: 221.1
-  proteinInGrams: 17.6
-  sugarInGrams: 1.87
+  portionWeightInGrams: 55
+  portionCaloriesInKcal: 221.1
+  portionProteinInGrams: 17.6
+  portionSugarInGrams: 1.87
   tier: B
   year: 2024
 
@@ -245,10 +245,10 @@
   brand: Body & Fit
   comparison: It's a chocolate bar lol
   type: ProteinChocolateBar
-  weightInGrams: 85
-  caloriesInKcal: 436.9
-  proteinInGrams: 16.405
-  sugarInGrams: 0.17
+  portionWeightInGrams: 85
+  portionCaloriesInKcal: 436.9
+  portionProteinInGrams: 16.405
+  portionSugarInGrams: 0.17
   tier: A
   year: 2024
 
@@ -262,10 +262,10 @@
     - Way too sweet
   brand: Optimum Nutrition
   type: ProteinBar
-  weightInGrams: 68
-  caloriesInKcal: 226.44
-  proteinInGrams: 19.72
-  sugarInGrams: 2.516
+  portionWeightInGrams: 68
+  portionCaloriesInKcal: 226.44
+  portionProteinInGrams: 19.72
+  portionSugarInGrams: 2.516
   tier: C
   year: 2024
 
@@ -278,10 +278,10 @@
     - Can't think of anything
   brand: Optimum Nutrition
   type: ProteinBar
-  weightInGrams: 60
-  caloriesInKcal: 196.2
-  proteinInGrams: 20.4
-  sugarInGrams: 1.98
+  portionWeightInGrams: 60
+  portionCaloriesInKcal: 196.2
+  portionProteinInGrams: 20.4
+  portionSugarInGrams: 1.98
   tier: S
   year: 2024
 
@@ -293,10 +293,10 @@
   comparison: It's just Duo Penotti
   brand: Body & Fit
   type: ProteinSpread
-  weightInGrams: 250
-  caloriesInKcal: 1290
-  proteinInGrams: 52.50
-  sugarInGrams: 1.75
+  portionWeightInGrams: 15
+  portionCaloriesInKcal: 77.4
+  portionProteinInGrams: 3.15
+  portionSugarInGrams: 0.11
   tier: S
   year: 2024
 
@@ -310,10 +310,10 @@
     - Protein content is just okay
   brand: Body & Fit
   type: ProteinCookie
-  weightInGrams: 50
-  caloriesInKcal: 172.5
-  proteinInGrams: 12.5
-  sugarInGrams: 1.75
+  portionWeightInGrams: 50
+  portionCaloriesInKcal: 172.5
+  portionProteinInGrams: 12.5
+  portionSugarInGrams: 1.75
   tier: C
   year: 2024
 
@@ -328,10 +328,10 @@
     - Lower than average protein content
   brand: Lidl
   type: ProteinBar
-  weightInGrams: 40
-  caloriesInKcal: 151.6
-  proteinInGrams: 10.4
-  sugarInGrams: 0.6
+  portionWeightInGrams: 40
+  portionCaloriesInKcal: 151.6
+  portionProteinInGrams: 10.4
+  portionSugarInGrams: 0.6
   tier: B
   year: 2024
 
@@ -346,10 +346,10 @@
     - It tastes nothing like cookies and cream
   brand: Lidl
   type: ProteinBar
-  weightInGrams: 40
-  caloriesInKcal: 148.8
-  proteinInGrams: 10.4
-  sugarInGrams: 0.68
+  portionWeightInGrams: 40
+  portionCaloriesInKcal: 148.8
+  portionProteinInGrams: 10.4
+  portionSugarInGrams: 0.68
   tier: C
   year: 2024
 
@@ -362,9 +362,147 @@
     - Just okay protein to calorie ratio
   brand: Fin Carre
   type: ProteinChocolateBar
-  weightInGrams: 90
-  caloriesInKcal: 455.4
-  proteinInGrams: 27
-  sugarInGrams: 7.11
+  portionWeightInGrams: 90
+  portionCaloriesInKcal: 455.4
+  portionProteinInGrams: 27
+  portionSugarInGrams: 7.11
+  tier: A
+  year: 2024
+
+- name: Mars Protein
+  good:
+    - Delicious
+    - Outright candy
+  bad:
+    - A bit too sweet
+    - No texture
+    - Low protein
+    - Extremely high sugar
+  comparison: It's just a Mars bar
+  brand: Mars
+  type: ProteinBar
+  portionWeightInGrams: 50
+  portionCaloriesInKcal: 189
+  portionProteinInGrams: 10.10
+  portionSugarInGrams: 17.85
+  tier: B
+  year: 2024
+
+- name: Snickers Protein
+  good:
+    - Delicious
+    - Outright candy
+    - Peanuts
+  bad:
+    - Low protein
+    - Extremely high sugar
+  comparison: Quite literally a Snickers
+  brand: Mars
+  type: ProteinBar
+  portionWeightInGrams: 47
+  portionCaloriesInKcal: 192.23
+  portionProteinInGrams: 10.81
+  portionSugarInGrams: 14.10
+  tier: A
+  year: 2024
+
+- name: Peanut Butter Protein Bar
+  good:
+    - Creamy
+    - Soft, but somewhat chewy
+  bad:
+    - A bit of fake sweetness
+    - Bit high in calories
+  comparison: Kinda like soft nougat
+  brand: Healthy Fit
+  type: ProteinBar
+  portionWeightInGrams: 90
+  portionCaloriesInKcal: 241.2
+  portionProteinInGrams: 19.98
+  portionSugarInGrams: 2.5
+  tier: A
+  year: 2024
+
+- name: Peanut Butter Protein Bar
+  good:
+    - Creamy
+    - Soft, but somewhat chewy
+  bad:
+    - A bit of fake sweetness
+    - Bit high in calories
+  comparison: Kinda like soft nougat
+  brand: Healthy Fit
+  type: ProteinBar
+  portionWeightInGrams: 90
+  portionCaloriesInKcal: 241.2
+  portionProteinInGrams: 19.98
+  portionSugarInGrams: 2.5
+  tier: A
+  year: 2024
+
+- name: Protein Choco
+  good:
+    - Somehow a bit of a hazelnut aftertaste
+    - Mixes well, no clumps
+    - Barely any sugar
+    - Vegan
+  bad:
+    - Extremely proteiny, both in water and soy milk
+    - The usual pea protein aftertaste
+  brand: Orangefit
+  type: ProteinPowder
+  portionWeightInGrams: 25
+  portionCaloriesInKcal: 98.5
+  portionProteinInGrams: 19.53
+  portionSugarInGrams: 0.03
+  tier: C
+  year: 2024
+
+- name: Gold Standard 100% Whey Vanilla Ice Cream
+  good:
+    - Very tasty
+    - It does taste like ice cream
+    - 5 grams of BCAAs and 3.5 grams of glutamine per portion, supposedly
+  bad:
+    - Hard to mix, clumps a lot
+  brand: Optimum Nutrition
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 113.4
+  portionProteinInGrams: 23.7
+  portionSugarInGrams: 0.03
+  tier: A
+  year: 2024
+
+- name: Gold Standard 100% Whey Double Rich Chocolate
+  good:
+    - Very tasty (with soy milk)
+    - 5 grams of BCAAs and 3.5 grams of glutamine per portion, supposedly
+  bad:
+    - Hard to mix, clumps a lot
+    - Not very good when mixed in water, very proteiny
+  comparison: Shitty Chocomel
+  brand: Optimum Nutrition
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 112.2
+  portionProteinInGrams: 22.80
+  portionSugarInGrams: 0.96
+  tier: A
+  year: 2024
+
+- name: Gold Standard 100% Whey Delicious Strawberry
+  good:
+    - Delicious indeed
+    - 5 grams of BCAAs and 3.5 grams of glutamine per portion, supposedly
+  bad:
+    - Hard to mix, clumps a lot
+  comparison: Like a shitty protein shake version of the strawberry part of a Neapolitan ice cream
+  brand: Optimum Nutrition
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 113.4
+  portionProteinInGrams: 23.7
+  portionSugarInGrams: 0.03
   tier: A
   year: 2024

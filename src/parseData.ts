@@ -6,7 +6,7 @@ function getSlug(input: string): string {
     .trim()
     .toLowerCase()
     .replace(/[\s_]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+    .replace(/^-+|-+$|%/g, "");
 }
 
 export default function parseData(data: string): Review[] {
@@ -23,10 +23,10 @@ export default function parseData(data: string): Review[] {
         name: item.name,
         brand: item.brand,
         type: item.type,
-        weightInGrams: parseFloat(item.weightInGrams),
-        caloriesInKcal: parseFloat(item.caloriesInKcal),
-        proteinInGrams: parseFloat(item.proteinInGrams),
-        sugarInGrams: parseFloat(item.sugarInGrams),
+        portionWeightInGrams: parseFloat(item.portionWeightInGrams),
+        portionCaloriesInKcal: parseFloat(item.portionCaloriesInKcal),
+        portionProteinInGrams: parseFloat(item.portionProteinInGrams),
+        portionSugarInGrams: parseFloat(item.portionSugarInGrams),
       },
       tier: item.tier,
       year: parseInt(item.year, 10),

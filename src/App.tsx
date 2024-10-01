@@ -48,13 +48,13 @@ function App() {
         filterVariant: "select",
       },
     }),
-    helper.accessor("product.caloriesInKcal", {
+    helper.accessor("product.portionCaloriesInKcal", {
       header: () => <span>Calories (kcal)</span>,
       meta: {
         filterVariant: "range",
       },
     }),
-    helper.accessor("product.proteinInGrams", {
+    helper.accessor("product.portionProteinInGrams", {
       header: () => <span>Protein (g)</span>,
       meta: {
         filterVariant: "range",

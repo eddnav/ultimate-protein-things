@@ -67,19 +67,19 @@ export function ReviewCard({ review }: { review: Review }) {
           <span className="icon has-text-info">
             <i className="fa-solid fa-fire"></i>
           </span>
-          <span>{`${review.product.caloriesInKcal}kcal per portion`}</span>
+          <span>{`${review.product.portionCaloriesInKcal}kcal per portion`}</span>
         </div>
         <div className="icon-text">
           <span className="icon has-text-info">
             <i className="fa-solid fa-dumbbell"></i>
           </span>
-          <span>{`${review.product.proteinInGrams}g of protein per portion (${(review.product.caloriesInKcal / review.product.proteinInGrams).toFixed(2)}kcal per gram)`}</span>
+          <span>{`${review.product.portionProteinInGrams}g of protein per portion (${(review.product.portionCaloriesInKcal / review.product.portionProteinInGrams).toFixed(2)}kcal per gram)`}</span>
         </div>
         <div className="icon-text">
           <span className="icon has-text-info">
             <i className="fa-solid fa-weight-hanging"></i>
           </span>
-          <span>{`${review.product.weightInGrams}g per portion`}</span>
+          <span>{`${review.product.portionWeightInGrams}g per portion`}</span>
         </div>
         <div className="icon-text">
           <span className="icon has-text-info">
