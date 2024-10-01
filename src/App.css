@@ -56,7 +56,10 @@
     1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
-.picture {
+.image {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
   background-color: white;
   object-fit: cover;
 }

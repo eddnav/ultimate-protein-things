@@ -423,6 +423,23 @@
   tier: A
   year: 2024
 
+- name: Peanut Butter Protein Bar
+  good:
+    - Creamy
+    - Soft, but somewhat chewy
+  bad:
+    - A bit of fake sweetness
+    - Bit high in calories
+  comparison: Kinda like soft nougat
+  brand: Healthy Fit
+  type: ProteinBar
+  portionWeightInGrams: 90
+  portionCaloriesInKcal: 241.2
+  portionProteinInGrams: 19.98
+  portionSugarInGrams: 2.5
+  tier: A
+  year: 2024
+
 - name: Protein Choco
   good:
     - Somehow a bit of a hazelnut aftertaste

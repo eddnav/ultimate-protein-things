@@ -8,13 +8,7 @@ export function ReviewCard({ review }: { review: Review }) {
       <div className="card-content">
         <div className="media">
           <div className="media-left">
-            <figure className="image is-64x64 is-square">
-              {/* eslint-disable-next-line */}
-              <img
-                className="picture is-rounded"
-                src={review.product.imageUrl}
-              />
-            </figure>
+            <img className="image" src={review.product.imageUrl} />
           </div>
           <div className="media-content no-scrolling">
             <p className="subtitle is-6 text-ellipsis">
