@@ -423,23 +423,6 @@
   tier: A
   year: 2024
 
-- name: Peanut Butter Protein Bar
-  good:
-    - Creamy
-    - Soft, but somewhat chewy
-  bad:
-    - A bit of fake sweetness
-    - Bit high in calories
-  comparison: Kinda like soft nougat
-  brand: Healthy Fit
-  type: ProteinBar
-  portionWeightInGrams: 90
-  portionCaloriesInKcal: 241.2
-  portionProteinInGrams: 19.98
-  portionSugarInGrams: 2.5
-  tier: A
-  year: 2024
-
 - name: Protein Choco
   good:
     - Somehow a bit of a hazelnut aftertaste
@@ -506,3 +489,20 @@
   portionSugarInGrams: 0.03
   tier: A
   year: 2024
+
+- name: Whey Delicious Apple Pie
+  good:
+    - Delicious actually
+    - Easy to disolve, few clumps
+    - Subtle apple pie flavour
+  bad:
+    - Even though the flavour subtle, it is a bit opinionated, so it wouldn't be easy to drink it every day
+  comparison: Kinda like the vanilla flavour with a hint of apple, it sort of reminds of the strawberry one too
+  brand: XXL
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 120.3
+  portionProteinInGrams: 23.3
+  portionSugarInGrams: 1.3
+  tier: A
+  year: 2026
