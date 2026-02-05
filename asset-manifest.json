@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ultimate-protein-things/static/css/main.4201664f.css",
-    "main.js": "/ultimate-protein-things/static/js/main.81f1ca0c.js",
-    "static/js/453.91ff6197.chunk.js": "/ultimate-protein-things/static/js/453.91ff6197.chunk.js",
-    "static/media/fa-solid-900.ttf": "/ultimate-protein-things/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/ultimate-protein-things/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/ultimate-protein-things/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/ultimate-protein-things/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/ultimate-protein-things/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/ultimate-protein-things/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/fa-v4compatibility.ttf": "/ultimate-protein-things/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/ultimate-protein-things/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "main.css": "/ultimate-protein-things/static/css/main.42c244a8.css",
+    "main.js": "/ultimate-protein-things/static/js/main.5b9e6b55.js",
+    "static/js/453.0a32dfc5.chunk.js": "/ultimate-protein-things/static/js/453.0a32dfc5.chunk.js",
+    "static/media/fa-solid-900.ttf": "/ultimate-protein-things/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/ultimate-protein-things/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/ultimate-protein-things/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/ultimate-protein-things/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/ultimate-protein-things/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/ultimate-protein-things/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/ultimate-protein-things/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/ultimate-protein-things/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/ultimate-protein-things/index.html",
-    "main.4201664f.css.map": "/ultimate-protein-things/static/css/main.4201664f.css.map",
-    "main.81f1ca0c.js.map": "/ultimate-protein-things/static/js/main.81f1ca0c.js.map",
-    "453.91ff6197.chunk.js.map": "/ultimate-protein-things/static/js/453.91ff6197.chunk.js.map"
+    "main.42c244a8.css.map": "/ultimate-protein-things/static/css/main.42c244a8.css.map",
+    "main.5b9e6b55.js.map": "/ultimate-protein-things/static/js/main.5b9e6b55.js.map",
+    "453.0a32dfc5.chunk.js.map": "/ultimate-protein-things/static/js/453.0a32dfc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4201664f.css",
-    "static/js/main.81f1ca0c.js"
+    "static/css/main.42c244a8.css",
+    "static/js/main.5b9e6b55.js"
   ]
 }
