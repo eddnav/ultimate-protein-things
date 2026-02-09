@@ -506,3 +506,20 @@
   portionSugarInGrams: 1.3
   tier: A
   year: 2026
+
+- name: Whey Delicious Forest Fruit
+  good:
+    - Delicious actually
+    - Easy to disolve, few clumps
+    - A bit less strong than the strawberry flavour, but...
+  bad:
+    - Also very similar to the strawberry one
+  comparison: Subtle Whey Delicious Strawberry
+  brand: XXL
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 118
+  portionProteinInGrams: 23.3
+  portionSugarInGrams: 0.9
+  tier: A
+  year: 2026
