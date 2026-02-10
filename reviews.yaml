@@ -523,3 +523,19 @@
   portionSugarInGrams: 0.9
   tier: A
   year: 2026
+
+- name: Whey Delicious Speculaas
+  good:
+    - Super delicious actually
+    - Easy to disolve, few clumps
+    - Unique, not very similar to other flavours
+  bad:
+    - Might still be a bit too opinionated for everyday use
+  brand: XXL
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 119.3
+  portionProteinInGrams: 22.5
+  portionSugarInGrams: 1.3
+  tier: S
+  year: 2026
