@@ -555,3 +555,67 @@
   portionSugarInGrams: 0.8
   tier: A
   year: 2026
+
+- name: Whey Delicious Salted Caramel
+  good:
+    - Super delicious actually
+    - Easy to disolve, few clumps
+    - Buttery
+  brand: XXL
+  type: ProteinPowder
+  comparison: Butter drink
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 116.9
+  portionProteinInGrams: 23.9
+  portionSugarInGrams: 1.4
+  tier: S
+  year: 2026
+
+- name: Whey Delicious Yogurt Raspberry
+  good:
+    - Easy to disolve, few clumps
+  bad:
+    - Meh flavour
+    - The raspberry hint doesn't mesh well with milk bases
+  brand: XXL
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 116.9
+  portionProteinInGrams: 23.1
+  portionSugarInGrams: 1.2
+  tier: D
+  year: 2026
+
+- name: Protein Satisbites Dark Cookie Crumble
+  good:
+    - Might as well be candy
+    - Two separate chunks
+    - Soft core
+    - Strong chocolate flavour
+  bad:
+    - Mediocre protein content
+  brand: More
+  type: ProteinPowder
+  portionWeightInGrams: 50
+  portionCaloriesInKcal: 189
+  portionProteinInGrams: 13
+  portionSugarInGrams: 1.6
+  tier: A
+  year: 2026
+
+- name: Protein Satisbites Dark Cookie Crumble
+  good:
+    - Might as well be candy
+    - Two separate chunks
+    - Soft core
+    - Sweet hazelnut hint
+  bad:
+    - Mediocre protein content
+  brand: More
+  type: ProteinPowder
+  portionWeightInGrams: 50
+  portionCaloriesInKcal: 197
+  portionProteinInGrams: 15
+  portionSugarInGrams: 1.9
+  tier: A
+  year: 2026
