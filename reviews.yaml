@@ -619,3 +619,20 @@
   portionSugarInGrams: 1.9
   tier: A
   year: 2026
+
+- name: Whey Delicious Strawberry Banana
+  good:
+    - Delicious actually
+    - Easy to disolve, few clumps
+    - Slightest hint of banana
+  bad:
+    - Bit boring
+    - Banana flavour is too faint
+  brand: XXL
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 119.9
+  portionProteinInGrams: 23.6
+  portionSugarInGrams: 0.9
+  tier: A
+  year: 2026
