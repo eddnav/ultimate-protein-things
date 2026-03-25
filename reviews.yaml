@@ -636,3 +636,19 @@
   portionSugarInGrams: 0.9
   tier: A
   year: 2026
+
+- name: Whey Delicious Strawberry Banana
+  good:
+    - Surprisingly delicious
+    - Easy to disolve, few clumps
+    - Tastes like Douwe Egberts Ice Cappucino
+  bad:
+    - Does not feel like a protein shake
+  brand: XXL
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 119.3
+  portionProteinInGrams: 23.3
+  portionSugarInGrams: 0.8
+  tier: A
+  year: 2026
