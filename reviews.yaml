@@ -653,7 +653,7 @@
   tier: A
   year: 2026
 
-- name: ESN Designer Protein Bar
+- name: ESN Designer Protein Bar Hazelnut Nougat
   good:
     - Literal candy
     - Shardy coat
@@ -668,4 +668,58 @@
   portionProteinInGrams: 14
   portionSugarInGrams: 2.0
   tier: A
+  year: 2026
+
+- name: ESN Designer Protein Bar Dark Chocolate Salted Almond
+  good:
+    - Literal candy
+    - Deep chocolate flavour
+    - Shardy coat
+    - Soft core
+    - Nutty flavour and chunks
+    - Salty highlights
+  bad:
+    - Low protein content
+  brand: ESN
+  type: ProteinBar
+  portionWeightInGrams: 45
+  portionCaloriesInKcal: 179
+  portionProteinInGrams: 15
+  portionSugarInGrams: 0.3
+  tier: A
+  year: 2026
+
+- name: Barebells Sunny Strawberry Protein Bar
+  good:
+    - Fruity flavour
+    - Crunchy plus crunchy bits
+    - Good protein content
+    - Hefty
+  bad:
+    - Chewy
+    - Bit too fake tasting
+  brand: Barebells
+  type: ProteinBar
+  portionWeightInGrams: 55
+  portionCaloriesInKcal: 205
+  portionProteinInGrams: 20
+  portionSugarInGrams: 1.4
+  tier: B
+  year: 2026
+
+- name: ESN Designer Protein Bar Strawberry Yogurt
+  good:
+    - Literal candy
+    - Shardy coat
+    - Soft core
+    - Strong straberry and yogurt flavour
+  bad:
+    - Low protein content
+  brand: ESN
+  type: ProteinBar
+  portionWeightInGrams: 45
+  portionCaloriesInKcal: 179
+  portionProteinInGrams: 15
+  portionSugarInGrams: 2.0
+  tier: B
   year: 2026
