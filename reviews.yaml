@@ -653,7 +653,7 @@
   tier: A
   year: 2026
 
-- name: ESN Designer Protein Bar Hazelnut Nougat
+- name: Designer Protein Bar Hazelnut Nougat
   good:
     - Literal candy
     - Shardy coat
@@ -670,7 +670,7 @@
   tier: A
   year: 2026
 
-- name: ESN Designer Protein Bar Dark Chocolate Salted Almond
+- name: Designer Protein Bar Dark Chocolate Salted Almond
   good:
     - Literal candy
     - Deep chocolate flavour
@@ -689,7 +689,7 @@
   tier: A
   year: 2026
 
-- name: Barebells Sunny Strawberry Protein Bar
+- name: Sunny Strawberry Protein Bar
   good:
     - Fruity flavour
     - Crunchy plus crunchy bits
@@ -707,7 +707,7 @@
   tier: B
   year: 2026
 
-- name: ESN Designer Protein Bar Strawberry Yogurt
+- name: Designer Protein Bar Strawberry Yogurt
   good:
     - Literal candy
     - Shardy coat
@@ -721,5 +721,21 @@
   portionCaloriesInKcal: 179
   portionProteinInGrams: 15
   portionSugarInGrams: 2.0
-  tier: B
+  tier: A
+  year: 2026
+
+- name: Salted Peanut Caramel Protein Bar
+  good:
+    - Salty
+    - Shardy coat
+    - Buttery caramel flavour
+  bad:
+    - Slightly low protein content
+  brand: Barebells
+  type: ProteinBar
+  portionWeightInGrams: 55
+  portionCaloriesInKcal: 210
+  portionProteinInGrams: 16
+  portionSugarInGrams: 2
+  tier: A
   year: 2026
