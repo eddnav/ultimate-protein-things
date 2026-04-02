@@ -739,3 +739,37 @@
   portionSugarInGrams: 2
   tier: A
   year: 2026
+
+- name: Salted Peanut Caramel Protein Bar
+  good:
+    - Salty
+    - Shardy coat
+    - Buttery caramel flavour
+  bad:
+    - Slightly low protein content
+  brand: Barebells
+  type: ProteinBar
+  portionWeightInGrams: 55
+  portionCaloriesInKcal: 210
+  portionProteinInGrams: 16
+  portionSugarInGrams: 2
+  tier: A
+  year: 2026
+
+- name: Designer Protein Bar White Chocolate Pistachio
+  good:
+    - Literal candy
+    - Shardy coat
+    - Soft core
+    - Delicious nutty, buttery flavour
+  bad:
+    - Low protein content
+    - On the verge of being too sweet
+  brand: ESN
+  type: ProteinBar
+  portionWeightInGrams: 45
+  portionCaloriesInKcal: 183
+  portionProteinInGrams: 15
+  portionSugarInGrams: 1.7
+  tier: A
+  year: 2026
