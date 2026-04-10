@@ -773,3 +773,72 @@
   portionSugarInGrams: 1.7
   tier: A
   year: 2026
+
+- name: Designer Protein Bar White Chocolate Pistachio
+  good:
+    - Literal candy
+    - Shardy coat
+    - Soft, grainy core
+    - Hint of cookies and cream Hershey's
+  bad:
+    - Low protein content
+    - Tad too sweet
+  brand: ESN
+  type: ProteinBar
+  portionWeightInGrams: 45
+  portionCaloriesInKcal: 183
+  portionProteinInGrams: 15
+  portionSugarInGrams: 1.7
+  tier: A
+  year: 2026
+
+- name: Whey Delicious Cookies & Cream
+  good:
+    - Delicious actually
+    - Easy to disolve, few clumps
+    - Tastes like Hershey's
+    - Has a bit of coarse Oreo-like dust
+    - Potential daily driver
+  bad:
+    - On the verge of too sweet
+  comparison: Kinda like the vanilla flavour with a hint of apple, it sort of reminds of the strawberry one too
+  brand: XXL
+  type: ProteinPowder
+  portionWeightInGrams: 30
+  portionCaloriesInKcal: 115
+  portionProteinInGrams: 22.9
+  portionSugarInGrams: 1.8
+  tier: S
+  year: 2026
+
+- name: Protein Bar Deluxe Salted Caramel
+  good:
+    - Crunchy
+    - Somewhat palatable
+  bad:
+    - Weird plasticky taste
+    - Somehow slightly spicy, chemically so
+  brand: Massive Nutrition
+  type: ProteinBar
+  portionWeightInGrams: 55
+  portionCaloriesInKcal: 204
+  portionProteinInGrams: 20
+  portionSugarInGrams: 1.8
+  tier: C
+  year: 2026
+
+- name: Protein Bar Deluxe Cookie & Cream
+  good:
+    - Crunchy bits, lots of them
+    - Somewhat palatable
+    - Bit like white chocolate
+  bad:
+    - Somehow slightly spicy, chemically so
+  brand: Massive Nutrition
+  type: ProteinBar
+  portionWeightInGrams: 55
+  portionCaloriesInKcal: 204
+  portionProteinInGrams: 20
+  portionSugarInGrams: 1.8
+  tier: C
+  year: 2026
